@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 100vh;
+	background: url('assets/MG_4219.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menurolativo{
+	position: fixed;
+}
+.menu{
+	background: #fff;
+	width: 200px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.imgmenu{
+	margin-top: 30px;
+	width: 200px;
+}
+.imgmenino{
+	width: 300px;
+	position: absolute;
+	left: 110%;
+	bottom: 1px;
+}
+.h1menu{
+	
+}
+.textomenu{
+	margin: 20%;
+	display: flex;
+	flex-direction: column;
+}
+.linkmenu1, .linkmenu2, .linkmenu3, .linkmenu4{
+	margin: 5px;
+	font-family: "adobe-clean", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #A6538D;
+}
+/*float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;*/

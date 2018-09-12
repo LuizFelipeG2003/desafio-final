@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #a6538d;
+      }
+
+      .cls-1 {
+        font-size: 32px;
+        font-family: Korolev-Bold, Korolev;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_152" data-name="Group 152" transform="translate(-840 -2402)">
+    <text id="ING" class="cls-1" transform="translate(862 2419)"><tspan x="0" y="31">ING</tspan></text>
+    <g id="noun_english_902379" transform="translate(835 2397)">
+      <g id="Group_149" data-name="Group 149">
+        <path id="Path_51" data-name="Path 51" class="cls-2" d="M84,5H16C9.9,5,5,9.6,5,15.3V67c0,5.7,4.9,10.3,11,10.3h7.2V92.6a2.5,2.5,0,0,0,1.5,2.2,2.153,2.153,0,0,0,1.1.2,3.371,3.371,0,0,0,1.7-.5L50.2,77.3H84c6.1,0,11-4.6,11-10.3V15.3C95,9.6,90.1,5,84,5Zm5.9,61.9a5.6,5.6,0,0,1-5.8,5.4H49.2a3.371,3.371,0,0,0-1.7.5L28.4,87.3V74.7a2.547,2.547,0,0,0-2.6-2.4H16a5.6,5.6,0,0,1-5.8-5.4V15.5A5.6,5.6,0,0,1,16,10.1H84.2A5.6,5.6,0,0,1,90,15.5V66.9Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
