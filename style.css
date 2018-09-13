@@ -7,6 +7,7 @@
 	background: url('assets/MG_4219.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .menurolativo{
 	position: fixed;
@@ -20,16 +21,19 @@
 }
 .imgmenu{
 	margin-top: 30px;
-	width: 200px;
+	width: 190px;
 }
 .imgmenino{
 	width: 300px;
 	position: absolute;
-	left: 110%;
+	left: 20%;
 	bottom: 1px;
 }
 .h1menu{
-	
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 }
 .textomenu{
 	margin: 20%;
