@@ -9,6 +9,13 @@
     background-position: center;
     position: relative;
 }
+.filtro{
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(to right, rgba(150, 217, 252, 0.3), rgba(235, 38, 143, 0.3));
+	position: absolute;
+	left: 200px;
+}
 .menurolativo{
 	position: fixed;
 }
@@ -31,6 +38,10 @@
 }
 .h1menu{
 	color: #fff;
+	font-family: "adobe-clean", sans-serif ;
+	font-size: 50px;
+	font-weight: bold;
+
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -47,9 +58,3 @@
 	text-decoration: none;
 	color: #A6538D;
 }
-/*float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;*/
