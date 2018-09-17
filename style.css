@@ -4,20 +4,23 @@
 }
 .header{
 	height: 100vh;
-	background: url('assets/MG_4219.jpg') no-repeat;
+	background: url('assets/imgheader.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-.filtro{
+/*.filtro{
 	width: 100vw;
 	height: 100vh;
 	background-image: linear-gradient(to right, rgba(150, 217, 252, 0.3), rgba(235, 38, 143, 0.3));
 	position: absolute;
 	left: 200px;
-}
+}*/
 .menurolativo{
 	position: fixed;
+}
+@media (min-width: 438px) (max-width: 653px){
+
 }
 .menu{
 	background: #fff;
@@ -38,10 +41,8 @@
 }
 .h1menu{
 	color: #fff;
-	font-family: "adobe-clean", sans-serif ;
 	font-size: 50px;
 	font-weight: bold;
-
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -57,4 +58,7 @@
 	font-weight: bold;
 	text-decoration: none;
 	color: #A6538D;
+}
+.nuvem{
+	position: fixed;
 }
