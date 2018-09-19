@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+footer{
+	display: flex;
+	flex direction: row;
+}
+.h1parceiros{
+	margin-top: 50px; 
+	margin-left: 50px;
+	font-family: "adobe-clean", sans-serif;
+/*	font-family: 'Roboto', sans-serif;*/
+	font-weight: bold;
+	text-decoration: none;
+	color: #A6538D;
+}
+.partnav{
+	width: 200px;
+	height: 200vh;
+	background: #000;
+}
+.logo1, .logo2, .logo3{
+	width: 100px;
+	margin: 50px;
+}
+.divcolumn{
+	display: flex;
+	flex-direction: column; 
+}

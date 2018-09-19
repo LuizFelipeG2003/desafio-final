@@ -19,9 +19,6 @@
 .menurolativo{
 	position: fixed;
 }
-@media (min-width: 438px) (max-width: 653px){
-
-}
 .menu{
 	background: #fff;
 	width: 200px;
@@ -61,4 +58,60 @@
 }
 .nuvem{
 	position: fixed;
+}
+main{
+	background-color: #EB268F;
+	max-width: 100vw;
+	display: flex;
+	flex-direction: row;
+}
+.espaçonav{
+	width: 200px;
+	height: 100vh;
+}
+.sec_ativ{
+	height:100vh;
+	width: 80vw;
+
+}
+.sec_ativ_p{
+	height: 420px;
+	width: 350px;
+	color: #FFFFFF;
+	font-family: korolev-medium;
+	font-size: 19px;
+	padding-top: 60px;
+	/*position: relative;
+	top:10%;
+	left:25%;*/
+
+}
+.divrowmain{
+	display: flex;
+	flex-direction: row;
+}
+footer{
+	display: flex;
+	flex direction: row;
+}
+.h1parceiros{
+	margin-top: 50px; 
+	margin-left: 50px;
+	font-family: "adobe-clean", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #A6538D;
+}
+.partnav{
+	width: 200px;
+	height: 200vh;
+	background: #000;
+}
+.logo1, .logo2, .logo3{
+	width: 100px;
+	margin: 50px;
+}
+.divcolumn{
+	display: flex;
+	flex-direction: column; 
 }
