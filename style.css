@@ -2,6 +2,26 @@
 	margin: 0;
 	padding: 0;
 }
+@font-face {
+     font-family: korolevbold;
+     src: url('KorolevBold.woff');
+}
+@font-face {
+	font-family: korolevheavy;
+	src: url('KorolevHeavy.woff');
+}
+@font-face {
+	font-family: korolevligth;
+	src: url('KorolevLight.woff');
+}
+@font-face {
+	font-family: KorolevMedium;
+	src: url('KorolevMedium.woff');
+}
+@font-face {
+	font-family: KorolevMediumItalic;
+	src: url('KorolevMediumItalic.woff');
+}
 .header{
 	height: 100vh;
 	background: url('assets/imgheader.jpg') no-repeat;
@@ -33,16 +53,17 @@
 .imgmenino{
 	width: 300px;
 	position: absolute;
-	left: 20%;
+	left: 8%;
 	bottom: 1px;
 }
 .h1menu{
 	color: #fff;
-	font-size: 50px;
+	font-family: korolevheavy, sans-serif;
+	font-size: 80px;
 	font-weight: bold;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 23%;
+	left: 33%;
 }
 .textomenu{
 	margin: 20%;
@@ -51,13 +72,35 @@
 }
 .linkmenu1, .linkmenu2, .linkmenu3, .linkmenu4{
 	margin: 5px;
-	font-family: "adobe-clean", sans-serif;
+	font-family: "korolevbold", sans-serif;
+	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	color: #A6538D;
 }
-.nuvem{
+#linkmenu1:hover{
+	color: red;
+}
+#linkmenu2:hover{
+	color: red;
+}
+#linkmenu3:hover{
+	color: red;
+}
+#linkmenu4:hover{
+	color: red;
+}
+.divnuvem{
+	width: 100vw;
+	height: 30vh;
+	/*background: #000;*/
 	position: fixed;
+	top: 70%;
+}
+.nuvem{
+	width: 100vw;
+	height: 30vh;
+	position: absolute;
 }
 main{
 	background-color: #EB268F;
@@ -74,38 +117,27 @@ main{
 	width: 80vw;
 
 }
-.sec_ativ_p{
-	height: 420px;
-	width: 350px;
-	color: #FFFFFF;
-	font-family: korolev-medium;
-	font-size: 19px;
-	padding-top: 60px;
-	/*position: relative;
-	top:10%;
-	left:25%;*/
-
-}
-.divrowmain{
-	display: flex;
-	flex-direction: row;
-}
 footer{
 	display: flex;
 	flex direction: row;
 }
 .h1parceiros{
-	margin-top: 50px; 
-	margin-left: 50px;
-	font-family: "adobe-clean", sans-serif;
+	font-family: "korolevbold", sans-serif;
+	font-size: 40px;
 	font-weight: bold;
 	text-decoration: none;
 	color: #A6538D;
 }
 .partnav{
 	width: 200px;
-	height: 200vh;
+	height: 100vh;
 	background: #000;
+}
+.parceiros{
+	margin-top: 70px;
+	margin-bottom: 100px;
+	position: relative;
+	left: 200px;
 }
 .logo1, .logo2, .logo3{
 	width: 100px;
@@ -114,4 +146,25 @@ footer{
 .divcolumn{
 	display: flex;
 	flex-direction: column; 
+}
+.backgroundctts{
+	width: 70vw;
+	height: 100vh;
+	background: #A6538D;
+	display: flex;
+	flex-direction: column;
+	color: #fff; 
+	font-family: korolevbold, Sans-serif;
+}
+.h1contato{
+	font: 30px korolevbold, Sans-serif;
+	font-weight: bold;
+	margin: 80px 0 40px 60px;
+	color: #96D9FC;
+}
+.divcontatos{
+	margin-left: 60px;
+}
+.numero, .facebook{
+	color: yellow;
 }
