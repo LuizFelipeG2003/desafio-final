@@ -53,7 +53,7 @@
 .imgmenino{
 	width: 300px;
 	position: absolute;
-	left: 8%;
+	left: 15%;
 	bottom: 1px;
 }
 .h1menu{
@@ -63,14 +63,14 @@
 	font-weight: bold;
 	position: absolute;
 	top: 23%;
-	left: 33%;
+	left: 37%;
 }
 .textomenu{
 	margin: 20%;
 	display: flex;
 	flex-direction: column;
 }
-.linkmenu1, .linkmenu2, .linkmenu3, .linkmenu4{
+.linkmenu{
 	margin: 5px;
 	color: #A6538D;
 	font-family: "korolevbold", sans-serif;
@@ -78,17 +78,18 @@
 	font-weight: bold;
 	text-decoration: none;
 }
-#linkmenu1:hover{
+.menures{
+	display: none;
+}
+#linkmenu:hover{
 	color: red;
 }
-#linkmenu2:hover{
-	color: red;
-}
-#linkmenu3:hover{
-	color: red;
-}
-#linkmenu4:hover{
-	color: red;
+.hambuerguer{
+	margin: 2px;
+	height: 3px;
+	width: 30px;
+	cursor: pointer;
+	background: #A6538D
 }
 .divnuvem{
 	width: 100vw;
@@ -102,7 +103,7 @@
 	position: absolute;
 }
 main{
-	width: 1284px;
+	width: 100vw;
 	height: 100vh;
 	background-color: #EB268F;
 }
@@ -224,8 +225,206 @@ footer{
 	color: yellow;
 }
 .imgdofooter{
+	margin: 0;
+	padding: 0;
 	width: 500px;
 	position: absolute;
 	top:30%;
 	left: 61%;
+}
+.vainaweb_img{
+	width: 5%;
+	height: 5%;
+	position: absolute;
+	top: 90%;
+	right: 65%;
+	z-index: 99;
+}
+.vainaweb_p{
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+	position: absolute;
+	top: 92%;
+	right: 70%;
+	z-index: 99;
+}
+@media (max-width:768px){
+	.background{
+		flex-flow: column-reverse nowrap;
+	}
+	.header{
+		margin:0;
+		padding: 0;
+		width: 100vw;
+		/height: 100vh;/
+	}
+	.parceiros{
+		left: 0;
+	}
+	.h1menu{
+		font-size: 36px;
+		text-align: left;
+		position: absolute;
+		top: 30%;
+	}
+	.imgmenino{
+		width: 198px;
+		height: 340px;
+		position: absolute;
+		left: 2%;
+		/top: 50%;/
+	}
+	.sec_ativ_p{
+		margin-left: -20%;
+		font-size: 12px;
+		position: absolute;
+		top: -5%;
+
+	}
+	.sec_ativ_div3_img{
+		width: 450px;
+		height: 260px;
+		left: -11%;
+		top: 44%;
+	}
+	.sec_ativ_div2{
+		/*right: 60%;*/
+		/*bottom: 10px;*/
+	}
+	.sec_ativ_div2_p{
+		font-size: 14px;
+		position: relative;
+		color: black;
+		right: 5%;
+		top:-610%;
+	}
+	.seta_esq{
+		position: absolute;
+		left: -40%;
+		top: -600%;
+	}
+	.seta_dir{
+		position: absolute;
+		left: -10%;
+		/*top: 50%;*/
+		bottom: 630%;
+	}
+	.logos{	
+		display: flex;
+		position: relative;
+		justify-content: center;
+		/*/margin-left: -50%;/*/
+	}
+	.nuvem{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 25%;
+		position: fixed;
+		right: 1%;
+		bottom: -2%;
+	}
+	.divnuvem{
+		height: 25%;
+	}
+	.hambuerguer{
+		margin: 2px;
+		height: 5px;
+		position: relative;
+		top: -20%;
+		cursor: pointer;
+	}
+	.menures{
+		display: block;
+		margin-top: 6%;
+	}
+	.textomenu{
+		position: absolute;
+		top: -190px;
+		flex-wrap: wrap;
+		background-color: white;
+		flex-direction: column;
+		height: 160px;
+		width: 100vw;
+		color: #A6538D;
+	}
+	.menu{
+		width: 480%;
+		height: 150px;
+		flex-direction: column;
+		/z-index: 99;/
+	}
+	.menurolativo{
+		z-index: 99;
+	}
+	.imgmenu{
+		height: 120px;
+		width: 150px;
+		margin-left: 30%;
+		margin-top: -6%;
+	}
+	.linkmenu{
+		font-size: 40px;
+		margin: 7px 80px;
+	}
+	.logo{
+		display: flex;
+		flex-direction: row
+	}
+	.vainaweb_p{
+		position: absolute;
+		font-size: 16px;
+		right: 65%;
+		top: 95%;
+	}
+	.vainaweb_img{
+		height: 8%;
+		width: 17%;
+		position: absolute;
+		right: 45%;
+		top: 92%;
+		z-index: 99;
+	}
+	.backgroundctts{
+		margin: 0;
+		padding: 0;
+		width: 100vw;
+	}
+	.facebook{
+		position: absolute;
+		top: 70%;
+	}
+	.numero{
+		position: absolute;
+		top: 65%;
+	}
+	.p2{
+		position: absolute;
+		top:60%;
+	}
+	.p1{
+		position: absolute;;
+		top: 55%;
+	}
+	.h1contato{
+		position: absolute;
+		top: 40%;
+	}
+	.imgdofooter{
+		width: 60%;
+		position: absolute;
+		top: 25%;
+		left: 25%;
+	}
+	.logos{
+		width: 100vw;
+		justify-content: space-between;
+	}
+	.logo1, .logo2, .logo3{
+		width: 3s0%;
+		height: 6%;
+		margin-left: 20px;
+		margin: 0;
+	}
 }
